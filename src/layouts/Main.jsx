@@ -1,14 +1,14 @@
-import React from 'react';
-import Navbar from '../pages/Shared/Navbar/Navbar';
+
 import Footer from '../pages/Shared/Footer/Footer';
 import { Col, Container, Row } from 'react-bootstrap';
 import LeftNave from '../pages/Shared/LeftNav/LeftNave';
 import RightNav from '../pages/Shared/RightNav/RightNav';
+import Header from '../pages/Shared/Header/Header';
 
 const Main = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Header></Header>
       <Container>
         <Row>
           <Col lg={3}><LeftNave></LeftNave></Col>
