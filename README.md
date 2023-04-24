@@ -4,3 +4,4 @@
 * react bootstrap
 * react-moment
 * react-fast-marquee
+* react-icons
