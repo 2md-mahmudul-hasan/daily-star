@@ -1,4 +1,4 @@
-#### daily-star
+#### https://daily-starr.netlify.app/
 * React router dom
 * firebase 
 * react bootstrap
