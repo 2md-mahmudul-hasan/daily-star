@@ -12,7 +12,7 @@ const LeftNave = () => {
     <div>
       <p> left nav </p>
       {
-        catagory.map(data => <p key={data.id}><Link className='text-decoration-none py-2 mb-2'>{data.name}</Link></p>)
+        catagory.map(data => <p key={data.id}><Link to={`/category/${data.id}`} className='text-decoration-none py-2 mb-2'>{data.name}</Link></p>)
       }
     </div>
   );
