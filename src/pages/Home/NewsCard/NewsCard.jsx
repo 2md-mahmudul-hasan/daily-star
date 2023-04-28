@@ -17,7 +17,7 @@ const NewsCard = ({ news }) => {
         <Card.Text>
           {details.length < 250 ? <>{details}</> : <>{details.slice(0, 250)}...<Link to={`/news/${_id}`}>read more</Link></>}
         </Card.Text>
-        <Button variant="primary">see more...</Button>
+
       </Card.Body>
     </Card>
   );
